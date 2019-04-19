@@ -43,7 +43,7 @@ nav.navbar li:last-child{
 }
 .services-intro{
     max-width: 100px;
-    font-family: boing;
+    font-family: boing-regular;
     margin: 5em 0;
 }
 .services-intro h2{
@@ -60,7 +60,7 @@ nav.navbar li:last-child{
 
 }
 .service p{
-    font-family: boing;
+    font-family: boing-regular;
     font-size: 25px;
     font-weight: 500;
 }

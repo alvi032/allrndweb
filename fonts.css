@@ -4,3 +4,9 @@
     font-style: normal;
     font-weight: 100;
 }
+@font-face{
+    font-family: 'boing-regular';
+    src: url("fonts/Boing/Boing/Boing-Regular.otf");
+    font-style: normal;
+    font-weight: 100;
+}
