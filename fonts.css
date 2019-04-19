@@ -10,3 +10,10 @@
     font-style: normal;
     font-weight: 100;
 }
+
+@font-face{
+    font-family: 'boing-bold';
+    src: url("fonts/Boing/Boing/Boing-Bold.otf");
+    font-style: bold;
+    font-weight: 600;
+}

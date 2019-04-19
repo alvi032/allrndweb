@@ -57,6 +57,7 @@ nav.navbar li:last-child{
     font-family: boing;
 }
 .service h2{
+    font-family: boing-bold;
     color: #3484d9;
     font-weight: 500;
 
