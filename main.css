@@ -2,6 +2,15 @@ body{
     font-family: "Boing";
 
 }
+nav.navbar li{
+    margin: 0 1em;
+}
+nav.navbar li a{
+    color: #3484d9;
+}
+nav.navbar li:last-child{
+    margin-right: 0;
+}
 
 .about-text{
     /*margin-top: 1.5em;*/
@@ -18,9 +27,9 @@ body{
     font-size: 1.5vw;
     background-color: #3484d9;
     color: white;
-    border-radius: 15px;
+    border-radius: 30px;
     border: 0px solid transparent;
-    width: max-content;
+    width: 10em;
     white-space: nowrap;
 }
 .image{
