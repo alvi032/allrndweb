@@ -97,6 +97,38 @@ nav.navbar li:last-child{
     font-size: 25px;
     font-weight: 500;
 }
+#work{
+    background-color: #3484d9;
+}
+
+#work img{
+   height: 150px;
+}
+#work h1{
+    color: white;
+    font-family: boing-regular;
+    font-size: 50px;
+}
+#work p{
+    color: white;
+    font-family: boing-regular;
+    font-weight: 100;
+    font-size: 40px;
+}
+#work a{
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: white;
+    font-family: boing-bold;
+    font-weight: 500;
+    font-size: 20px;
+    color: #3483d8;
+    -webkit-box-shadow: 3px 7px 6px 2px rgba(0,0,0,0.34);
+    -moz-box-shadow: 3px 7px 6px 2px rgba(0,0,0,0.34);
+    box-shadow: 3px 7px 6px 2px rgba(0,0,0,0.34);
+
+}
+
 /*.service:hover{*/
     /*-webkit-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.75);*/
     /*-moz-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.75);*/
