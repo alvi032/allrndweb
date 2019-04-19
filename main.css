@@ -1,5 +1,5 @@
 body, html{
-    font-family: Boing;
+    font-family: boing;
 
 }
 nav.navbar .nav-cont{
@@ -19,7 +19,7 @@ nav.navbar li:last-child{
 .about-text{
     /*margin-top: 1.5em;*/
     font-size: 5vw;
-    font-family: "Boing";
+    font-family: boing;
     color: rgb(52, 132, 217);
     line-height: 0.951;
     text-shadow: 2px 5px 0px rgba(0, 0, 0, 0.05);
@@ -43,7 +43,7 @@ nav.navbar li:last-child{
 }
 .services-intro{
     max-width: 100px;
-    font-family: Boing;
+    font-family: boing;
     margin: 3em 0;
 }
 .services-intro h2{
@@ -52,7 +52,7 @@ nav.navbar li:last-child{
     color:#3484d9;
 }
 .service{
-    font-family: Boing;
+    font-family: boing;
 }
 .service h2{
     color: #3484d9;
@@ -60,7 +60,7 @@ nav.navbar li:last-child{
 
 }
 .service p{
-    font-family: Boing;
+    font-family: boing;
     font-size: 25px;
     font-weight: 500;
 }
