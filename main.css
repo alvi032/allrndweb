@@ -1,0 +1,29 @@
+body{
+    font-family: "Boing";
+
+}
+
+.about-text{
+    /*margin-top: 1.5em;*/
+    font-size: 5vw;
+    font-family: "Boing";
+    color: rgb(52, 132, 217);
+    line-height: 0.951;
+    text-shadow: 2px 5px 0px rgba(0, 0, 0, 0.05);
+}
+#creative-cont{
+    width: fit-content;
+}
+#talk{
+    font-size: 1.5vw;
+    background-color: #3484d9;
+    color: white;
+    border-radius: 15px;
+    border: 0px solid transparent;
+    width: max-content;
+    white-space: nowrap;
+}
+.image{
+    margin:0;
+    padding: 0;
+}
