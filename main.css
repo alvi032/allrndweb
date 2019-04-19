@@ -17,7 +17,9 @@ nav.navbar li a{
 nav.navbar li:last-child{
     margin-right: 0;
 }
-
+#intro-section{
+    background-color:#f5f5f5;
+}
 .about-text{
     /*margin-top: 1.5em;*/
     font-size: 5vw;
@@ -43,6 +45,31 @@ nav.navbar li:last-child{
     margin:0;
     padding: 0;
 }
+#about-section{
+    margin: 2em 0;
+
+    background-image: url("images/about-background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#about-section h1{
+    font-family: boing;
+    margin: 2em 0;
+    color: #3484d9;
+}
+#about-section h1 span{
+    font-family: boing-regular;
+}
+#about-section p{
+    font-family: boing-regular;
+    font-size: 30px;
+    max-width: 60vw;
+}
+#service-bg{
+    background: linear-gradient(to bottom, #2763a2, #5d99d8 );
+    padding: 0;
+}
 .services-intro{
     max-width: 100px;
     font-family: boing-regular;
@@ -51,7 +78,7 @@ nav.navbar li:last-child{
 .services-intro h2{
     font-size: 40px;
     width: 700px;
-    color:#3484d9;
+    color: #ffffff;
 }
 .service{
     font-family: boing;
@@ -63,7 +90,6 @@ nav.navbar li:last-child{
     font-family: boing-bold;
     color: #3484d9;
     font-weight: 500;
-
 }
 .service p{
     font-family: boing-regular;
