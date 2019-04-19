@@ -1,5 +1,5 @@
-body{
-    font-family: "Boing";
+body, html{
+    font-family: Boing;
 
 }
 nav.navbar .nav-cont{
@@ -28,6 +28,7 @@ nav.navbar li:last-child{
     width: fit-content;
 }
 #talk{
+    margin-top: 1em;
     font-size: 1.5vw;
     background-color: #3484d9;
     color: white;
@@ -39,4 +40,27 @@ nav.navbar li:last-child{
 .image{
     margin:0;
     padding: 0;
+}
+.services-intro{
+    max-width: 100px;
+    font-family: Boing;
+    margin: 3em 0;
+}
+.services-intro h2{
+    font-size: 40px;
+    width: 700px;
+    color:#3484d9;
+}
+.service{
+    font-family: Boing;
+}
+.service h2{
+    color: #3484d9;
+    font-weight: 500;
+
+}
+.service p{
+    font-family: Boing;
+    font-size: 25px;
+    font-weight: 500;
 }
