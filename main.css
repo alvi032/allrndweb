@@ -1,26 +1,34 @@
-body, html{
+body, html {
     font-family: boing;
+    padding-top: 65px;
 }
-nav.navbar{
+
+nav.navbar {
     background-color: white;
 }
-nav.navbar .nav-cont{
+
+nav.navbar .nav-cont {
     width: 100vw;
     margin: 0 10vw;
 }
-nav.navbar li{
+
+nav.navbar li {
     margin: 0 1em;
 }
-nav.navbar li a{
+
+nav.navbar li a {
     color: #3484d9;
 }
-nav.navbar li:last-child{
+
+nav.navbar li:last-child {
     margin-right: 0;
 }
-#intro-section{
-    background-color:#f5f5f5;
+
+#intro-section {
+    background-color: #f5f5f5;
 }
-.about-text{
+
+.about-text {
     /*margin-top: 1.5em;*/
     font-size: 5vw;
     font-family: boing;
@@ -28,10 +36,12 @@ nav.navbar li:last-child{
     line-height: 0.951;
     text-shadow: 2px 5px 0px rgba(0, 0, 0, 0.05);
 }
-#creative-cont{
+
+#creative-cont {
     width: fit-content;
 }
-#talk{
+
+#talk {
     margin-top: 1em;
     font-size: 1.5vw;
     background-color: #3484d9;
@@ -41,11 +51,13 @@ nav.navbar li:last-child{
     width: 10em;
     white-space: nowrap;
 }
-.image{
-    margin:0;
+
+.image {
+    margin: 0;
     padding: 0;
 }
-#about-section{
+
+#about-section {
     margin: 2em 0;
 
     background-image: url("images/about-background.png");
@@ -53,79 +65,94 @@ nav.navbar li:last-child{
     background-size: contain;
     background-position: center;
 }
-#about-section h1{
+
+#about-section h1 {
     font-family: boing;
     margin: 2em 0;
     color: #3484d9;
 }
-#about-section h1 span{
+
+#about-section h1 span {
     font-family: boing-regular;
 }
-#about-section p{
+
+#about-section p {
     font-family: boing-regular;
     font-size: 30px;
     max-width: 60vw;
 }
-#service-bg{
-    background: linear-gradient(to bottom, #2763a2, #5d99d8 );
+
+#service-bg {
+    background: linear-gradient(to bottom, #2763a2, #5d99d8);
     padding: 0;
 }
-.services-intro{
+
+.services-intro {
     max-width: 100px;
     font-family: boing-regular;
     margin: 5em 0;
 }
-.services-intro h2{
+
+.services-intro h2 {
     font-size: 40px;
     width: 700px;
     color: #ffffff;
 }
-.service{
+
+.service {
     font-family: boing;
     padding: 1em;
 }
-.service:hover{
-    background-color: #dcdcdc;
+
+.service:hover {
+    background-color: #f4f4f4;
     border: 0px solid #3484d9;
     border-radius: 15px;
-    -webkit-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.81);
-    -moz-box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.81);
-    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.81);
+    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.62);
+    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.62);
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.62);
 }
-.service-row{
+
+.service-row {
     margin: 3em 0;
 }
-.service h2{
+
+.service h2 {
     font-family: boing-bold;
     color: #3484d9;
     font-weight: 500;
 }
-.service p{
+
+.service p {
     margin-top: 1em;
     font-family: boing-regular;
     line-height: 100%;
     font-size: 25px;
     font-weight: 500;
 }
-#work{
+
+#work {
     background-color: #3484d9;
 }
 
-#work img{
-   height: 150px;
+#work img {
+    height: 150px;
 }
-#work h1{
+
+#work h1 {
     color: white;
-    font-family: boing-regular;
+    font-family: boing;
     font-size: 50px;
 }
-#work p{
+
+#work p {
     color: white;
     font-family: boing-regular;
     font-weight: 100;
     font-size: 40px;
 }
-#work a{
+
+#work a {
     border-radius: 15px;
     border: 1px solid transparent;
     background-color: white;
@@ -133,15 +160,8 @@ nav.navbar li:last-child{
     font-weight: 500;
     font-size: 20px;
     color: #3483d8;
-    -webkit-box-shadow: 3px 7px 6px 2px rgba(0,0,0,0.34);
-    -moz-box-shadow: 3px 7px 6px 2px rgba(0,0,0,0.34);
-    box-shadow: 3px 7px 6px 2px rgba(0,0,0,0.34);
+    -webkit-box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
+    box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
 
 }
-
-/*.service:hover{*/
-    /*-webkit-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.75);*/
-    /*-moz-box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.75);*/
-    /*box-shadow: 0px 0px 12px -6px rgba(0,0,0,0.75);*/
-
-/*}*/
