@@ -6,7 +6,9 @@ body, html {
     color: white;
     font-size: 30px;
 }
-
+#allrnd-logo img{
+    height: 60px;
+}
 nav.navbar {
     background-color: white;
 }
@@ -176,11 +178,17 @@ nav.navbar li:last-child {
     #under-construction{
         font-size: 12px;
     }
+    nav.navbar img{
+     height:
+    }
     nav.navbar li:last-child {
         margin: 0;
     }
+    #allrnd-logo img{
+        height: 50px;
+    }
     body{
-        padding-top: 40px;
+        padding-top: 30px;
         width: 100vw;
         overflow-x: hidden;
     }
