@@ -184,6 +184,12 @@ nav.navbar li:last-child {
         width: 100vw;
         overflow-x: hidden;
     }
+    #intro-section h1{
+        font-size: 25px;
+    }
+    #intro-section a{
+        font-size: 10px;
+    }
     #about-section h1{
         font-size: 25px;
         line-height: 100%;
