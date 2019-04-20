@@ -62,4 +62,7 @@
     #loader{
         display: flex;
     }
+    #main-content{
+        display: none;
+    }
 }
