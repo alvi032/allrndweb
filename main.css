@@ -101,6 +101,9 @@ nav.navbar li:last-child {
     background: linear-gradient(to bottom, #2763a2, #5d99d8);
     padding: 0;
 }
+#service-header img{
+    width: 200px;
+}
 
 .services-intro {
     max-width: 100px;
@@ -250,5 +253,50 @@ nav.navbar li:last-child {
     }
     .service p{
         font-size: 18px;
+    }
+}
+@media only screen and (max-width: 400px){
+    #about-section h1{
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 380px){
+    #intro-section h1{
+        font-size: 22px;
+    }
+    #service-header h2{
+        font-size: 18px;
+    }
+
+}
+@media only screen and (max-width: 360px){
+    #intro-section h1{
+        font-size: 20px;
+    }
+    #about-section h1{
+        font-size: 18px;
+    }
+    #about-section p{
+        font-size: 16px;
+    }
+    #service-header h2{
+        font-size: 16px;
+    }
+    #allrnd-logo img{
+        height: 40px;
+    }
+}
+@media only screen and (max-width: 340px){
+    #service-header h2{
+        font-size: 16px;
+    }
+    #service-header img{
+        width: 180px;
+    }
+    #services-list h2{
+        font-size: 20px;
+    }
+    #services-list p{
+        font-size: 16px;
     }
 }
