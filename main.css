@@ -86,7 +86,7 @@ nav.navbar li:last-child {
 }
 #talk:hover{
     transform: scale(1.05);
-    box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
+    box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.15);
 }
 
 .image {
@@ -158,31 +158,6 @@ nav.navbar li:last-child {
     box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
 
 }
-
-/*@keyframes hovering {
-    100% {
-        background-color: #f4f4f4;
-        border-radius: 15px;
-        -webkit-box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
-        -moz-box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
-        box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
-    }
-}
-
-@keyframes enlarging {
-    100% {
-        transform: scale(1.03);
-    }
-}
-
-@keyframes reducing {
-    100% {
-        transform: scale(1);
-    }
-}*/
-
-
-
 .service-row {
     margin: 3em 0;
 }
@@ -240,6 +215,7 @@ nav.navbar li:last-child {
 }
 
 @media only screen and (max-width: 500px) {
+
     #under-construction {
         font-size: 12px;
     }
@@ -286,16 +262,18 @@ nav.navbar li:last-child {
     }
 
     #intro-section h1 {
-        font-size: 25px;
+        font-size: 22px;
 
     }
 
     #intro-section a {
         font-size: 15px;
     }
-
+    #about-section{
+        background-image: url("images/about-background.png");
+    }
     #about-section h1 {
-        font-size: 25px;
+        font-size: 22px;
         line-height: 100%;
     }
 
@@ -321,19 +299,27 @@ nav.navbar li:last-child {
     .service p {
         font-size: 18px;
     }
+    #work h1{
+        font-size: 30px;
+    }
+    #work p{
+        font-size: 25px;
+    }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 405px) {
     #about-section h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 370px) {
     #intro-section h1 {
-        font-size: 22px;
+        font-size: 20px;
     }
-
+    #about-section h1{
+        font-size: 18px;
+    }
     #service-header h2 {
         font-size: 18px;
     }
@@ -362,7 +348,10 @@ nav.navbar li:last-child {
     }
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 335px) {
+    #intro-section h1{
+        font-size: 18px;
+    }
     #service-header h2 {
         font-size: 16px;
     }
@@ -378,4 +367,5 @@ nav.navbar li:last-child {
     #services-list p {
         font-size: 16px;
     }
+
 }
