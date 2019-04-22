@@ -15,5 +15,5 @@ if (width <= 500){
     }  , 5000 );
 }
 else{
-    $('#main-content').css({'padding-top' : '100px'});
+    $('#main-content').css({'padding-top' : '80px'});
 }
