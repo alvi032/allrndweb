@@ -9,7 +9,7 @@ var width = $(window).width();
 if (width <= 500){
     setTimeout( function(){
         $('#loader').css({'display' : 'none'});
-        $('body').css({'padding-top' : '80px'});
+        $('body').css({'padding-top' : '60px'});
         $('#main-content').css({'display' : 'block'});
 
     }  , 5000 );
