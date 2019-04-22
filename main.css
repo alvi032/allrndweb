@@ -1,16 +1,20 @@
 body, html {
-    font-family: boing;
     /*padding-top: 65px;*/
-
-
 }
-#under-construction{
+
+p {
+    font-family: gotham-light;
+}
+
+#under-construction {
     color: white;
     font-size: 30px;
 }
-#allrnd-logo img{
+
+#allrnd-logo img {
     height: 60px;
 }
+
 nav.navbar {
     background-color: white;
 }
@@ -26,7 +30,18 @@ nav.navbar li {
 
 nav.navbar li a {
     color: #3484d9;
+    background-image: linear-gradient(#3484d9, #3484d9);
+    /*background-image: linear-gradient(dodgerblue, dodgerblue), linear-gradient(silver, silver);*/
+    background-size: 0 1px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
 }
+nav.navbar li a:hover {
+    background-size: 100% 3px, auto;
+    transform: scale(1.08);
+}
+
 
 nav.navbar li:last-child {
     margin-right: 0;
@@ -35,7 +50,8 @@ nav.navbar li:last-child {
 #intro-section {
     background-color: #f5f5f5;
 }
-#intro-cont img{
+
+#intro-cont img {
     width: 40vw;
     height: 100%;
 }
@@ -43,12 +59,13 @@ nav.navbar li:last-child {
 .about-text {
     /*margin-top: 1.5em;*/
     font-size: 5vw;
-    font-family: boing;
+    font-family: gotham-medium;
     color: rgb(52, 132, 217);
     line-height: 0.951;
     text-shadow: 2px 5px 0px rgba(0, 0, 0, 0.05);
 }
-#creative-mobileh1{
+
+#creative-mobileh1 {
     display: none;
 }
 
@@ -65,6 +82,11 @@ nav.navbar li:last-child {
     border: 0px solid transparent;
     width: 10em;
     white-space: nowrap;
+    transition: all 0.2s ease-out;
+}
+#talk:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
 }
 
 .image {
@@ -74,40 +96,41 @@ nav.navbar li:last-child {
 
 #about-section {
     margin: 2em 0;
-
-    background-image: url("images/about-background.png");
+    background-image: url("images/about-bg2.png");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: center;;
 }
 
 #about-section h1 {
-    font-family: boing;
-    margin: 2em 0;
+    font-family: gotham-medium;
+    font-size: 30px;
+    padding: 2em 0 1em 0;
     color: #3484d9;
 }
 
 #about-section h1 span {
-    font-family: boing-regular;
+    font-family: gotham-book;
 }
 
 #about-section p {
-    font-family: boing-regular;
-    font-size: 30px;
+    font-size: 20px;
     max-width: 60vw;
+    padding-bottom: 2em;
 }
 
 #service-header {
     background: linear-gradient(to bottom, #2763a2, #5d99d8);
     padding: 0;
 }
-#service-header img{
+
+#service-header img {
     width: 200px;
 }
 
 .services-intro {
     max-width: 100px;
-    font-family: boing-regular;
+    font-family: gotham-book;
     margin: 5em 0;
 }
 
@@ -118,35 +141,64 @@ nav.navbar li:last-child {
 }
 
 .service {
-    font-family: boing;
+    font-family: gotham-medium;
     padding: 1em;
+    transition: all 300ms ease-in-out;
+
 }
 
 .service:hover {
+    /*animation: enlarging 300ms forwards,
+    hovering 1s forwards;*/
+    transform: scale(1.03);
     background-color: #f4f4f4;
-    border: 0px solid #3484d9;
     border-radius: 15px;
-    -webkit-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.62);
-    -moz-box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.62);
-    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.62);
+    -webkit-box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
+
 }
+
+/*@keyframes hovering {
+    100% {
+        background-color: #f4f4f4;
+        border-radius: 15px;
+        -webkit-box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
+        -moz-box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
+        box-shadow: 0px 13px 7px -7px rgba(0, 0, 0, 0.12);
+    }
+}
+
+@keyframes enlarging {
+    100% {
+        transform: scale(1.03);
+    }
+}
+
+@keyframes reducing {
+    100% {
+        transform: scale(1);
+    }
+}*/
+
+
 
 .service-row {
     margin: 3em 0;
 }
 
 .service h2 {
-    font-family: boing-bold;
+    font-family: gotham-medium;
     color: #3484d9;
     font-weight: 500;
 }
-.service img{
+
+.service img {
     width: 200px;
 }
 
 .service p {
     margin-top: 1em;
-    font-family: boing-regular;
     line-height: 100%;
     font-size: 25px;
     font-weight: 500;
@@ -162,13 +214,12 @@ nav.navbar li:last-child {
 
 #work h1 {
     color: white;
-    font-family: boing;
+    font-family: gotham-medium;
     font-size: 50px;
 }
 
 #work p {
     color: white;
-    font-family: boing-regular;
     font-weight: 100;
     font-size: 40px;
 }
@@ -177,7 +228,7 @@ nav.navbar li:last-child {
     border-radius: 15px;
     border: 1px solid transparent;
     background-color: white;
-    font-family: boing-bold;
+    font-family: gotham-medium;
     font-weight: 500;
     font-size: 20px;
     color: #3483d8;
@@ -185,31 +236,38 @@ nav.navbar li:last-child {
     -moz-box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
     box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
 
+
 }
-@media only screen and (max-width: 500px){
-    #under-construction{
+
+@media only screen and (max-width: 500px) {
+    #under-construction {
         font-size: 12px;
     }
 
     nav.navbar li:last-child {
         margin: 0;
     }
-    #allrnd-logo img{
+
+    #allrnd-logo img {
         height: 50px;
     }
-    body{
+
+    body {
         /*padding-top: 30px;*/
         width: 100vw;
         overflow-x: hidden;
     }
-    #creative-mobileh1{
+
+    #creative-mobileh1 {
         display: block;
         text-align: center;
         white-space: nowrap;
     }
-    #creative-desktoph1{
+
+    #creative-desktoph1 {
         display: none;
     }
+
     #creative-cont {
         padding: 1.5em 0;
         width: fit-content;
@@ -217,86 +275,107 @@ nav.navbar li:last-child {
         flex-direction: column;
         align-items: center;
     }
-    #intro-cont{
+
+    #intro-cont {
         flex-direction: column-reverse;
     }
-    #intro-cont img{
+
+    #intro-cont img {
         width: 100vw;
         height: 100%;
     }
-    #intro-section h1{
+
+    #intro-section h1 {
         font-size: 25px;
 
     }
-    #intro-section a{
+
+    #intro-section a {
         font-size: 15px;
     }
-    #about-section h1{
+
+    #about-section h1 {
         font-size: 25px;
         line-height: 100%;
     }
-    #about-section p{
+
+    #about-section p {
         font-size: 18px;
         text-align: center;
         line-height: 100%;
         min-width: 80vw;
     }
 
-    #service-header h2{
+    #service-header h2 {
         font-size: 20px;
     }
-    .service h2{
+
+    .service h2 {
         font-size: 25px;
     }
-    .service img{
+
+    .service img {
         width: 100px;
     }
-    .service p{
+
+    .service p {
         font-size: 18px;
     }
 }
-@media only screen and (max-width: 400px){
-    #about-section h1{
+
+@media only screen and (max-width: 400px) {
+    #about-section h1 {
         font-size: 22px;
     }
 }
-@media only screen and (max-width: 380px){
-    #intro-section h1{
+
+@media only screen and (max-width: 380px) {
+    #intro-section h1 {
         font-size: 22px;
     }
-    #service-header h2{
+
+    #service-header h2 {
         font-size: 18px;
     }
 
 }
-@media only screen and (max-width: 360px){
-    #intro-section h1{
+
+@media only screen and (max-width: 360px) {
+    #intro-section h1 {
         font-size: 20px;
     }
-    #about-section h1{
+
+    #about-section h1 {
         font-size: 18px;
     }
-    #about-section p{
+
+    #about-section p {
         font-size: 16px;
     }
-    #service-header h2{
+
+    #service-header h2 {
         font-size: 16px;
     }
-    #allrnd-logo img{
+
+    #allrnd-logo img {
         height: 40px;
     }
 }
-@media only screen and (max-width: 340px){
-    #service-header h2{
+
+@media only screen and (max-width: 340px) {
+    #service-header h2 {
         font-size: 16px;
     }
-    #service-header img{
+
+    #service-header img {
         width: 180px;
     }
-    #services-list h2{
+
+    #services-list h2 {
         font-size: 20px;
     }
-    #services-list p{
+
+    #services-list p {
         font-size: 16px;
     }
 }

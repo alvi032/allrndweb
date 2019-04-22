@@ -12,7 +12,7 @@ if (width <= 500){
         $('body').css({'padding-top' : '60px'});
         $('#main-content').css({'display' : 'block'});
 
-    }  , 5000 );
+    }, 5000 );
 }
 else{
     $('#main-content').css({'padding-top' : '80px'});
