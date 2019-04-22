@@ -12,7 +12,7 @@ p {
 }
 
 #allrnd-logo img {
-    height: 60px;
+    height: 45px;
 }
 
 nav.navbar {
@@ -36,6 +36,7 @@ nav.navbar li a {
     background-repeat: no-repeat;
     background-position: center bottom;
     transition: all .2s ease-out;
+    font-size: 18px;
 }
 nav.navbar li a:hover {
     background-size: 100% 3px, auto;
