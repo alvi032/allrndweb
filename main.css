@@ -181,42 +181,80 @@ nav.navbar li:last-child {
 }
 
 #work {
-    background-color: #3484d9;
+    padding: 1em 0;
+    background-image: url("images/portfolio-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-#work img {
-    height: 150px;
+#work img{
+    height: 500px;
+    width: auto;
 }
-
-#work h1 {
-    color: white;
+#work-content{
+    position: absolute;
+}
+#work-content h1{
+    font-size: 120px;
     font-family: gotham-medium;
-    font-size: 50px;
+    color: #3484d9;
 }
-
-#work p {
-    color: white;
-    font-weight: 100;
-    font-size: 40px;
-}
-
-#work a {
-    border-radius: 15px;
-    border: 1px solid transparent;
+#work-content a{
     background-color: white;
-    font-family: gotham-medium;
-    font-weight: 500;
-    font-size: 20px;
-    color: #3483d8;
-    -webkit-box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
-    -moz-box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
-    box-shadow: 3px 7px 6px 2px rgba(0, 0, 0, 0.34);
-
-
+    font-family: gotham-light;
+    color: #3484d9;
+    border: 1px solid #3484d9;
+    border-radius: 30px;
+    padding: 0.5em 1em;
+    font-size: 25px;
 }
+@media only screen and (max-width: 1200px){
+    #work img{
+        height: 400px;
+    }
+    #work-content h1 {
+        font-size: 96px;
+    }
+    #work-content a{
+        font-size: 20px;
+        padding: 0.4em 0.8em;
+    }
+}
+
 @media only screen and (max-width: 1000px){
     nav.navbar li{
         margin: 0 0.3em;
+    }
+    #work img{
+        height: 300px;
+    }
+    #work-content h1 {
+        font-size: 96px;
+    }
+    #work-content a{
+        font-size: 20px;
+        padding: 0.4em 0.8em;
+    }
+}
+@media only screen and (max-width: 850px){
+    #work-content h1 {
+        font-size: 72px;
+    }
+    #work-content a{
+        font-size: 18px;
+        padding: 0.4em 0.8em;
+    }
+}
+@media only screen and (max-width:700px){
+    #work img{
+        height: 200px;
+    }
+    #work-content h1 {
+        font-size: 50px;
+    }
+    #work-content a{
+        font-size: 15px;
+        padding: 0.4em 0.8em;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -304,17 +342,30 @@ nav.navbar li:last-child {
     .service p {
         font-size: 18px;
     }
-    #work h1{
-        font-size: 30px;
+    #work img{
+        height: 175px;
     }
-    #work p{
-        font-size: 25px;
+    #work-content h1 {
+        font-size: 40px;
+    }
+    #work-content a{
+        font-size: 12px;
+        padding: 0.4em 0.8em;
     }
 }
-
 @media only screen and (max-width: 405px) {
     #about-section h1 {
         font-size: 20px;
+    }
+    #work img{
+        height: 175px;
+    }
+    #work-content h1 {
+        font-size: 35px;
+    }
+    #work-content a{
+        font-size: 12px;
+        padding: 0.4em 0.8em;
     }
 }
 
@@ -350,6 +401,9 @@ nav.navbar li:last-child {
 
     #allrnd-logo img {
         height: 40px;
+    }
+    #work img{
+        height: 110px;
     }
 }
 
