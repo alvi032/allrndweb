@@ -16,4 +16,5 @@ if (width <= 500){
 }
 else{
     $('#main-content').css({'padding-top' : '70px'});
+    $('#portfolio-main-content').css({'padding-top' : '70px'});
 }
