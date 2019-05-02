@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -22,6 +23,12 @@
 </head>
 <body>
 <div id="portfolio-main-content">
+    <div id="bg-fs">
+        <div class="fs">
+            <img src="" alt="" id="image-fs">
+            <button id="close">Close</button>
+        </div>
+    </div>
     <header>
         <!--        <div class="container-fluid bg-primary">
                     <p class="text-center mb-0" id="under-construction">Please be patient, We're still constructing
@@ -37,10 +44,10 @@
                 </button>
                 <div class="navbar-collapse collapse justify-content-end" id="menu">
                     <ul class="navbar-nav align-items-center list">
-                        <li class="nav-item"><a href="#about-section" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#services-section" class="nav-link">Services</a></li>
-                        <li class="nav-item"><a href="#work" class="nav-link">Work</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="index.html#about-section" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="index.html#services-section" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="index.html#work" class="nav-link">Work</a></li>
+                        <li class="nav-item"><a href="index.html#" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -59,38 +66,97 @@
     </div>
     <div class="container-fluid" id="portfolio-view">
         <ul id="posters">
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF1.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF2.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF3.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF4.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF5.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF6.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF7.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF8.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF9.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF10.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF11.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF12.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF13.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF14.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF15.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF16.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF17.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF18.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF19.jpg" alt="Poster 1"></li>
-            <li class="poster"><img src="images/Portfolio/Posters/tinified/PF20.jpg" alt="Poster 1"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B1.jpg" alt="Brand 1"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B2.jpg" alt="Brand 2"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B3.jpg" alt="Brand 3"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B4.jpg" alt="Brand 4"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B5.jpg" alt="Brand 4"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B6.jpg" alt="Brand 4"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B9.jpg" alt="Brand 4"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B10.jpg" alt="Brand 4"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B11.jpg" alt="Brand 4"></li>
-            <li class="brand"><img src="images/Portfolio/Branding/tinified/B7.jpg" alt="Brand 4"></li>
-        </ul>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF1.jpg" alt="Poster 1" id="poster1"></li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF2.jpg" alt="Poster 2" id="poster2"></li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF3.jpg" alt="Poster 3" id="poster3"></li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF4.jpg" alt="Poster 4" id="poster4"></li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF5.jpg" alt="Poster 5" id="poster5"></li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF6.jpg" alt="Poster 6" id="poster6"></li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF7.jpg" alt="Poster 7" id="poster7"></li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF8.jpg" alt="Poster 8" id="poster8"></li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF9.jpg" alt="Poster 9" id="poster9"></li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF10.jpg" alt="Poster 10" id="poster10">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF11.jpg" alt="Poster 11" id="poster11">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF12.jpg" alt="Poster 12" id="poster12">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF13.jpg" alt="Poster 13" id="poster13">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF14.jpg" alt="Poster 14" id="poster14">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF15.jpg" alt="Poster 15" id="poster15">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF16.jpg" alt="Poster 16" id="poster16">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF17.jpg" alt="Poster 17" id="poster17">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF18.jpg" alt="Poster 18" id="poster18">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF19.jpg" alt="Poster 19" id="poster19">
+            </li>
+            <li class="poster"><img src="images/portfolio/compressed/posters/PF20.jpg" alt="Poster 20" id="poster20">
+            </li>
 
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR1.jpg" alt="Brand " id="brand1"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR2.jpg" alt="Brand " id="brand2"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR3.jpg" alt="Brand " id="brand3"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR4.jpg" alt="Brand " id="brand4"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR5.jpg" alt="Brand " id="brand5"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR6.jpg" alt="Brand " id="brand6"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR7.jpg" alt="Brand " id="brand7"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR8.jpg" alt="Brand " id="brand8"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR9.jpg" alt="Brand " id="brand9"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR10.jpg" alt="Brand " id="brand10"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR11.jpg" alt="Brand " id="brand11"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR12.jpg" alt="Brand " id="brand12"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR13.jpg" alt="Brand " id="brand13"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR14.jpg" alt="Brand " id="brand14"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR15.jpg" alt="Brand " id="brand15"></li>
+            <li class="brand"><img src="images/portfolio/compressed/branding/BR16.jpg" alt="Brand " id="brand16"></li>
+
+            <li class="videos">
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/DvOYL4_IBEM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </li>
+            <li class="videos">
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/DazWaioLOy4" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </li>
+            <li class="videos">
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/uuyy_6H6dmE" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </li>
+            <li class="videos">
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/BCgobVmqcF0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </li>
+            <li class="videos">
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/hepvBABcpIk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </li>
+            <li class="videos">
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/Z76C3z0-zmk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </li>
+            <li class="videos">
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/JceI3J49yrM" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </li>
+            <li class="videos">
+                <iframe width="100%" height="350px" src="https://www.youtube.com/embed/P87-1t52k-I" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </li>
+
+        </ul>
     </div>
 </div>
 </body>

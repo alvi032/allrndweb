@@ -1,0 +1,32 @@
+#bg-fs {
+    display: none;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    z-index:1;
+}
+.fs{
+    display: grid;
+    place-self: center;
+    grid-template-rows: 8fr 1fr;
+    height: 90%;
+    /*width: auto;*/
+}
+#image-fs{
+    place-self: center;
+    height: 80vh;
+}
+button{
+    width: 100px;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: royalblue;
+    place-self: center;
+    color: white;
+}
