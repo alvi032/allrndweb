@@ -5,12 +5,6 @@ body, html {
 p {
     font-family: gotham-light;
 }
-
-#under-construction {
-    color: white;
-    font-size: 30px;
-}
-
 #allrnd-logo img {
     height: 45px;
 }
@@ -94,41 +88,12 @@ nav.navbar li:last-child {
     margin: 0;
     padding: 0;
 }
-
-/*#about-section {
-    margin: 0;
-    background-image: url("images/templates/about heading bg.png");
-    background-repeat: no-repeat;
-    background-size: 90vw;
-    background-position: top left;;
-}
-
-
-#about-section h1 {
-    font-family: gotham-medium;
-    text-transform: uppercase;
-    font-size: 50px;
-    max-width: 450px;
-
-    color: #3484d9;
-}
-
-#about-section h1 span {
-    font-family: gotham-book;
-}
-
-#about-section p {
-    font-size: 20px;
-    max-width: 60vw;
-    padding-bottom: 2em;
-}*/
 #about-section{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 2fr;
     grid-template-areas:    "head ."
     "para sticker";
-
 }
 #about-bg{
     width:80%;
@@ -138,13 +103,15 @@ nav.navbar li:last-child {
 }
 #about-section h1{
     grid-area: head;
-    padding: 0 150px;
+    /*padding: 0 150px;*/
+    padding-left: 150px;
     font-family: gotham-medium;
     align-self: end;
     justify-self: left;
     font-size: 70px;
     color: #3484d9;
     line-height: 90%;
+
 }
 #about-section p{
     grid-area: para;
@@ -161,16 +128,6 @@ nav.navbar li:last-child {
     width: 70%;
     height: auto;
 }
-
-
-/*#service-header {
-    background: linear-gradient(to bottom, #2763a2, #5d99d8);
-    padding: 0;
-}
-
-#service-header img {
-    width: 200px;
-}*/
 #section-header{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -214,8 +171,6 @@ nav.navbar li:last-child {
 }
 
 .service:hover {
-    /*animation: enlarging 300ms forwards,
-    hovering 1s forwards;*/
     transform: scale(1.03);
     background-color: #f4f4f4;
     border-radius: 15px;
@@ -289,6 +244,21 @@ nav.navbar li:last-child {
         font-size: 20px;
         padding: 0.4em 0.8em;
     }
+    #about-section{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    #about-bg{
+        grid-column: 1;
+        width: 90vw;
+    }
+    #sticker{
+        grid-column: 1;
+        grid-row: 3;
+        width: 30vw;
+        place-self: center;
+    }
+
 }
 
 @media only screen and (max-width: 1000px){
@@ -304,6 +274,16 @@ nav.navbar li:last-child {
     #work-content a{
         font-size: 20px;
         padding: 0.4em 0.8em;
+    }
+}
+@media (max-width: 900px){
+    #about-section h1{
+        font-size: 8vw;
+        place-self: center;
+        padding: 0;
+    }
+    #about-section p{
+        font-size: 3vw;
     }
 }
 @media only screen and (max-width: 850px){
@@ -325,6 +305,12 @@ nav.navbar li:last-child {
     #work-content a{
         font-size: 15px;
         padding: 0.4em 0.8em;
+    }
+    #about-section p{
+        padding: 2em 2em;
+    }
+    #sticker{
+        padding: 0 0 2em 0;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -382,11 +368,8 @@ nav.navbar li:last-child {
     #intro-section a {
         font-size: 15px;
     }
-    #about-section{
-        background-image: url("images/templates/about-background.png");
-    }
     #about-section h1 {
-        font-size: 22px;
+        padding-top: 1em;
         line-height: 100%;
     }
 
@@ -424,9 +407,7 @@ nav.navbar li:last-child {
     }
 }
 @media only screen and (max-width: 405px) {
-    #about-section h1 {
-        font-size: 20px;
-    }
+
     #work img{
         height: 175px;
     }
@@ -443,9 +424,7 @@ nav.navbar li:last-child {
     #intro-section h1 {
         font-size: 20px;
     }
-    #about-section h1{
-        font-size: 18px;
-    }
+
     #service-header h2 {
         font-size: 18px;
     }
@@ -457,9 +436,7 @@ nav.navbar li:last-child {
         font-size: 20px;
     }
 
-    #about-section h1 {
-        font-size: 18px;
-    }
+
 
     #about-section p {
         font-size: 16px;
