@@ -1,5 +1,6 @@
 #bg-fs {
     display: none;
+    place-content: center;
     padding: 0;
     margin: 0;
     width: 100vw;
@@ -13,20 +14,25 @@
 .fs{
     display: grid;
     place-self: center;
-    grid-template-rows: 8fr 1fr;
+    grid-template-rows: 6fr 1fr;
     height: 90%;
     /*width: auto;*/
 }
 #image-fs{
     place-self: center;
     height: 80vh;
+    grid-row: 1/2;
+    margin-bottom:1em;
 }
-button{
+#close{
+    grid-row: 2/3;
     width: 100px;
-    height: 25px;
+    height: fit-content;
+
+    border: 3px white solid;
     border-radius: 15px;
-    border: 1px solid transparent;
-    background-color: royalblue;
+    background: linear-gradient(to bottom, grey, darkgrey );
     place-self: center;
     color: white;
+    /*padding: 1em;*/
 }

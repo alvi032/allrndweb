@@ -209,6 +209,13 @@
     #posters{
         grid-template-columns: repeat(3, 1fr);
     }
+    #image-fs{
+        width: 100vw;
+        height: auto;
+    }
+    #close{
+        display: none;
+    }
 
 }
 @media only screen and (max-width: 405px) {

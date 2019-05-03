@@ -2,21 +2,37 @@ $("#all").click(function(){
     $(".poster").css("display", "block");
     $(".brand").css("display", "block");
     $(".videos").css("display", "block");
+    $("#all").css("border", "2px white solid");
+    $("#adverts").css("border", "2px transparent solid");
+    $("#branding").css("border", "2px transparent solid");
+    $("#videos").css("border", "2px transparent solid");
 });
 $("#adverts").click(function(){
     $(".poster").css("display", "block");
     $(".brand").css("display", "none");
     $(".videos").css("display", "none");
+    $("#all").css("border", "2px transparent solid");
+    $("#adverts").css("border", "2px white solid");
+    $("#branding").css("border", "2px transparent solid");
+    $("#videos").css("border", "2px transparent solid");
 });
 $("#branding").click(function(){
     $(".poster").css("display", "none");
     $(".brand").css("display", "block");
     $(".videos").css("display", "none");
+    $("#all").css("border", "2px transparent solid");
+    $("#adverts").css("border", "2px transparent solid");
+    $("#branding").css("border", "2px white solid");
+    $("#videos").css("border", "2px transparent solid");
 });
 $("#videos").click(function(){
     $(".poster").css("display", "none");
     $(".brand").css("display", "none");
     $(".videos").css("display", "block");
+    $("#all").css("border", "2px transparent solid");
+    $("#adverts").css("border", "2px transparent solid");
+    $("#branding").css("border", "2px transparent solid");
+    $("#videos").css("border", "2px white solid");
 });
 
 var modal = document.getElementById("bg-fs");
@@ -70,83 +86,83 @@ var b16 = document.getElementById("brand16");
 // pf.onclick
 {
 pf1.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF1.jpg"
 }
 pf2.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF2.jpg"
 }
 pf3.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF3.jpg"
 }
 pf4.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF4.jpg"
 }
 pf5.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF5.jpg"
 }
 pf6.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF6.jpg"
 }
 pf7.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF7.jpg"
 }
 pf8.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF8.jpg"
 }
 pf9.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF9.jpg"
 }
 pf10.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF10.jpg"
 }
 pf11.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF11.jpg"
 }
 pf12.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF12.jpg"
 }
 pf13.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF13.jpg"
 }
 pf14.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF14.jpg"
 }
 pf15.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF15.jpg"
 }
 pf16.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF16.jpg"
 }
 pf17.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF17.jpg"
 }
 pf18.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF18.jpg"
 }
 pf19.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF19.jpg"
 }
 pf20.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/posters/PF20.jpg"
 }
 }
@@ -154,67 +170,67 @@ pf20.onclick = function () {
 // b.onclick
 {
 b1.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR1.jpg"
 }
 b2.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR2.jpg"
 }
 b3.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR3.jpg"
 }
 b4.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR4.jpg"
 }
 b5.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR5.jpg"
 }
 b6.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR6.jpg"
 }
 b7.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR7.jpg"
 }
 b8.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR8.jpg"
 }
 b9.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR9.jpg"
 }
 b10.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR10.jpg"
 }
 b11.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR11.jpg"
 }
 b12.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR12.jpg"
 }
 b13.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR13.jpg"
 }
 b14.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR14.jpg"
 }
 b15.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR15.jpg"
 }
 b16.onclick = function () {
-    modal.style.display = "flex";
+    modal.style.display = "grid";
     enlargedImage.src="images/portfolio/hq/branding/BR16.jpg"
 }
 }
