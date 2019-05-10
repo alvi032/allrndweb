@@ -115,11 +115,11 @@ nav.navbar li:last-child {
 }
 #about-section p{
     grid-area: para;
-
+    height: fit-content;
     text-align: justify;
     font-size: 22px;
     font-family: gotham-medium;
-    padding: 4em 150px 0 150px;
+    padding: 4em 150px 5em 150px;
     color: #3484d9;
 }
 #sticker{
