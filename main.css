@@ -96,7 +96,7 @@ nav.navbar li:last-child {
     "para sticker";
 }
 #about-bg{
-    width:80%;
+    width:60%;
     height: auto;
     grid-column: 1/3;
     grid-row: 1;
