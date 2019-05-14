@@ -91,7 +91,7 @@ nav.navbar li:last-child {
 #about-section{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 3fr;
     grid-template-areas:    "head ."
     "para sticker";
 }
@@ -104,14 +104,15 @@ nav.navbar li:last-child {
 #about-section h1{
     grid-area: head;
     /*padding: 0 150px;*/
+    /*padding: 0 0 0 150px;*/
     padding-left: 150px;
     font-family: gotham-medium;
     align-self: end;
     justify-self: left;
+    height: fit-content;
     font-size: 70px;
     color: #3484d9;
     line-height: 90%;
-
 }
 #about-section p{
     grid-area: para;

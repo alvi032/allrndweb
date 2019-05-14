@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>allrnd</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="aos.css">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="loader.css">
     <link rel="stylesheet" href="contact.css">
@@ -59,11 +60,11 @@
         </nav>
     </header>
 
-    <div id="intro-section">
+    <div data-aos="fade-down" id="intro-section">
         <!--intro page-->
         <div class="no-gutters d-flex justify-content-between" id="intro-cont">
             <div class="container align-items-center justify-content-center d-flex flex-column">
-                <div class="container" id="creative-cont">
+                <div data-aos="fade-right" data-aos-delay="500" class="container" id="creative-cont">
                     <h1 class="about-text" id="creative-desktoph1">
                         Creative <br/>
                         solutions <br/>
@@ -82,7 +83,7 @@
         </div>
     </div>
 
-    <div id="about-section">
+    <div data-aos="fade-right" id="about-section">
         <img src="images/templates/about%20heading%20bg.png" alt="Introduction" id="about-bg">
         <h1 >A BRIEF <br>INTRODUCTION.</h1>
         <p >Allrnd media is more than a creative agency. We are a passionate group of creative artists who just love
@@ -99,7 +100,7 @@
         <img src="images/templates/sticker.png" alt="sticker" id="sticker">
     </div>
 
-    <div id="services-section">
+    <div data-aos="fade-right" id="services-section">
 
         <div id="section-header">
             <img src="images/templates/Section%20header%20bg.png" alt="Section">
@@ -222,7 +223,7 @@
         </div>
     </div>
 
-    <div id="work">
+    <div data-aos="fade-right" id="work">
         <div class="no-gutters d-flex align-items-center">
             <div class="container-fluid ">
                 <img src="images/templates/Portfolio-bg-text.png" alt="Portfolio">
@@ -257,7 +258,16 @@
         <p>© Allrndmedia 2019. All rights reserved.</p>
     </footer>
 </div>
+<script src="aos.js"></script>
+<script type="text/javascript">
+    AOS.init({
+        disable: 'mobile',
+        duration: 1000,
+    });
+    // window.addEventListener('load', AOS.refresh)
 
+</script>
 </body>
 <script src="main.js"></script>
+
 </html>
