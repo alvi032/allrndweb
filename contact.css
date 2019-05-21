@@ -6,7 +6,6 @@
     grid-template-areas:    "bg head ."
                             "bg card .";
     background-color: #3484d9;
-
 }
 #contact-body>img{
     grid-area: bg;
@@ -75,17 +74,58 @@ footer{
     position: absolute;
     bot:0;
     width: 100vw;
-    background-color: #01cffd;
+    background-color: #f3f3f3;
+    padding: 2em 0;
+}
+#footer-content{
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1.5fr 1fr;
+}
+footer .social{
+    grid-column: 1;
+    /*background-color: orange;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+}
+.social ul{
+    /*background-color: crimson;*/
+    list-style: none;
+    padding: 0;
+    display: flex;
+    place-self: center;
+    margin:0;
+
+}
+.social li{
+    padding: 0 0.5em;
 }
 footer p{
     text-align: center;
     padding: 0;
     margin: 0;
-    color: white;
-    grid-column: 1/2;
+    color: #3484d9;
+    grid-column: 2/3;
     font-family: gotham-light;
-
+    place-self: center;
+}
+footer #ft-links{
+    grid-column: 3;
+    justify-items: end;
+    padding-right: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#ft-links ul{
+    grid-column: 2/3;
+    place-self: center left;
+    list-style: none;
+    margin:0;
+}
+#ft-links li{
+padding: 0;
+}
+#ft-links a{
+    text-decoration: none;
+    color: black;
 }

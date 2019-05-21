@@ -13,9 +13,10 @@
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 
 
 </head>
@@ -69,7 +70,7 @@
             </div>
             <div class="container d-flex justify-content-end">
                 <div class="row">
-                    <img src="images/templates/creative%20solution%202.png" alt="Creative Solutions" >
+                    <img src="images/templates/creative%20solution%202.png" alt="Creative Solutions">
                 </div>
             </div>
         </div>
@@ -77,8 +78,8 @@
 
     <div data-aos="fade-right" id="about-section">
         <img src="images/templates/about%20heading%20bg.png" alt="Introduction" id="about-bg">
-        <h1 >A BRIEF <br>INTRODUCTION.</h1>
-        <p >Allrnd media is more than a creative agency. We are a passionate group of creative artists who just love
+        <h1>A BRIEF <br>INTRODUCTION.</h1>
+        <p>Allrnd media is more than a creative agency. We are a passionate group of creative artists who just love
             their work and make art with a lot of heart. We are providing creative solutions in the fields of design and
             development.
             <br>
@@ -114,7 +115,8 @@
 
 
                     </div>
-                    <p class="text-center">We use our creative juices to design unique and original logo concepts coupled
+                    <p class="text-center">We use our creative juices to design unique and original logo concepts
+                        coupled
                         with
                         full branding for your company to help your brand have it’s own standout identity.</p>
                 </div>
@@ -131,7 +133,8 @@
 
 
                     </div>
-                    <p class="text-center">Our team spares no effort to meet all your web-related needs. With our expertise,
+                    <p class="text-center">Our team spares no effort to meet all your web-related needs. With our
+                        expertise,
                         we shall design and develop a user-friendly website according to your precise needs.</p>
                 </div>
             </div>
@@ -150,7 +153,8 @@
 
                     </div>
                     <p class="text-center">Every modern brand needs a social media presence, but handling it could be a
-                        headache. Leave it to us. We’ll give you a social media identity, create loads of digital content
+                        headache. Leave it to us. We’ll give you a social media identity, create loads of digital
+                        content
                         and
                         we’ll help manage your social media by keeping it active and up-to-date.</p>
                 </div>
@@ -169,7 +173,8 @@
                     </div>
                     <p class="text-center">We were not kidding when we said we have a solution for everyone. We pride
                         ourselves
-                        in making creative lyric or animated music videos for talented music artists. Hand-drawn, kinetic
+                        in making creative lyric or animated music videos for talented music artists. Hand-drawn,
+                        kinetic
                         typography or something weirdly dark, we got you covered.</p>
                 </div>
             </div>
@@ -187,7 +192,8 @@
 
 
                     </div>
-                    <p class="text-center">The rough sketch in your mind meets our storm of creativity. Visual content of
+                    <p class="text-center">The rough sketch in your mind meets our storm of creativity. Visual content
+                        of
                         all
                         kinds is our favorite thing to do. We love making short animations, Logo Intros, Company intro
                         videos,
@@ -206,9 +212,11 @@
 
 
                     </div>
-                    <p class="text-center">Your brand and online presence needs to stand out from the competition. Our team
+                    <p class="text-center">Your brand and online presence needs to stand out from the competition. Our
+                        team
                         of
-                        Search Engine Optimization experts strategizes your content and gets to improve the ranking of your
+                        Search Engine Optimization experts strategizes your content and gets to improve the ranking of
+                        your
                         website across search platforms.</p>
                 </div>
             </div>
@@ -220,7 +228,8 @@
             <div class="container-fluid ">
                 <img src="images/templates/Portfolio-bg-text.png" alt="Portfolio">
             </div>
-            <div class="container-fluid d-flex flex-column align-items-center justify-content-center " id="work-content">
+            <div class="container-fluid d-flex flex-column align-items-center justify-content-center "
+                 id="work-content">
                 <h1>PORTFOLIO</h1>
                 <a href="portfolio.html" class="btn" role="button">See our Projects</a>
             </div>
@@ -247,7 +256,24 @@
     </div>
 
     <footer>
-        <p>© Allrndmedia 2019. All rights reserved.</p>
+        <div id="footer-content">
+            <div class="social">
+                <ul>
+                    <li><i class="fab fa-facebook fa-2x"></i></li>
+                    <li><i class="fab fa-instagram fa-2x"></i></li>
+
+                </ul>
+            </div>
+            <p>© Allrndmedia 2019. All rights reserved.</p>
+            <div id="ft-links">
+                <ul>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                    <li><a href="">The Team</a></li>
+                    <li><a href="">Downloads</a></li>
+                </ul>
+            </div>
+        </div>
+
     </footer>
 </div>
 
@@ -269,9 +295,9 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script>
-    $(document).ready(function(){
+    $(document).ready(function () {
         // Add smooth scrolling to all links
-        $("a").on('click', function(event) {
+        $("a").on('click', function (event) {
 
             // Make sure this.hash has a value before overriding default behavior
             if (this.hash !== "") {
@@ -285,7 +311,7 @@
                 // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
                 $('html, body').animate({
                     scrollTop: $(hash).offset().top
-                }, 1000, function(){
+                }, 1000, function () {
 
                     // Add hash (#) to URL when done scrolling (default click behavior)
                     window.location.hash = hash;

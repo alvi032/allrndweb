@@ -1,0 +1,48 @@
+#terms-main{
+    padding-top: 20px;
+}
+#terms-header {
+    background-image: url("images/terms/terms-header.png");
+    background-color: #f3f3f3;
+    background-size: 112vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 0px;
+    margin: 0;
+}
+#terms-header h1{
+    text-align: center;
+    padding-top: 50px;
+    /*padding-bottom: 20px;*/
+    font-family: gotham-medium;
+    font-size: 7vw;
+    color: #3484d9;
+    margin:0;
+}
+#terms-menu{
+    background-color: #3484d9;
+    margin: 0;
+}
+#terms-menu h3{
+    color: white;
+    font-family: gotham-light;
+    text-align: center;
+    padding:0.5vw;
+}
+#terms-para{
+    display: grid;
+    grid-template-columns: 1.5fr 7fr 1.5fr;
+}
+#terms-para p{
+    line-height: 200%;
+    grid-column: 2/3;
+    font-family: gotham-light;
+
+}
+.heading{
+    font-family: gotham-medium;
+}
+.sub-heading{
+    font-family: gotham-medium;
+    color: #5b5b5b
+}
