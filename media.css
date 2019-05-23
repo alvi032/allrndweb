@@ -105,6 +105,16 @@
     #video-list iframe{
         height: 50vw;
     }
+    #team-header h1{
+        font-size: 10vw;
+    }
+    .team-picture{
+        width: 150px;
+    }
+    #team-members h3{
+        font-size: 4vw;
+
+    }
 }
 @media only screen and (max-width: 500px) {
 
@@ -222,7 +232,27 @@
     #close{
         display: none;
     }
-
+    /*team css*/
+    #team-main{
+        padding-top: 16vw;
+    }
+    #members>li{
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content max-content;
+    }
+    #members h3{
+        font-size: 20px;
+    }
+    #members p{
+        font-size: 16px;
+    }
+    .team-picture{
+        width: 125px;
+        padding: 10px 0;
+    }
+    .team-social{
+        justify-content: center;
+    }
 }
 @media only screen and (max-width: 405px) {
     nav.navbar button img{
@@ -290,5 +320,7 @@
     #services-list p {
         font-size: 16px;
     }
-
+    #team-main{
+        padding-top: 18vw;
+    }
 }

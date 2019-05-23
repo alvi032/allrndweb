@@ -1,0 +1,65 @@
+body{
+    overflow: hidden;
+}
+#team-main{
+    padding-top: 70px;
+}
+#team-header {
+    background-image: url("images/templates/FOUNDING TEAM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f3f3f3;
+    margin: 0;
+}
+#team-header h1{
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-family: gotham-medium;
+    font-size: 7vw;
+    color: #3484d9;
+    margin:0;
+}
+#team-members{
+    display: grid;
+    width: 100vw;
+}
+#members{
+    display: grid;
+    /*background-color: #3484d9;*/
+    grid-template-columns: max-content;
+    width: max-content;
+    place-self: center;
+    padding: 0;
+
+}
+#members>li{
+    padding: 2em 0;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    place-items: center;
+}
+#members>li>div{
+    text-align: center;
+}
+#members h3{
+    font-family: gotham-medium;
+    color: #3484d9;
+}
+#members p{
+    font-family: gotham-light;
+    color: #3484d9;
+}
+.team-picture{
+    width: 200px;
+    padding: 0 3em 0 0;
+}
+.team-social{
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.team-social>li{
+    padding: 0 0.25em;
+}
