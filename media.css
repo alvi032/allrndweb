@@ -253,6 +253,37 @@
     .team-social{
         justify-content: center;
     }
+    footer{
+        padding: 0;
+    }
+    #footer-content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+    footer .social{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        place-self: center;
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+    #footer-content p{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        place-self: center;
+    }
+    #footer-content #ft-links{
+        grid-column: 1/2;
+        grid-row: 2/3;
+        place-self: center;
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0;
+    }
+    #ft-links ul{
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 405px) {
     nav.navbar button img{

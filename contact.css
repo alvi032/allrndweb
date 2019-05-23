@@ -83,7 +83,7 @@ footer{
 }
 footer .social{
     grid-column: 1;
-    /*background-color: orange;*/
+
     display: grid;
     grid-template-columns: 1fr 1fr;
 
@@ -115,6 +115,7 @@ footer #ft-links{
     padding-right: 1.5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /*background-color: orange;*/
 }
 #ft-links ul{
     grid-column: 2/3;
@@ -124,6 +125,7 @@ footer #ft-links{
 }
 #ft-links li{
 padding: 0;
+
 }
 #ft-links a{
     text-decoration: none;
