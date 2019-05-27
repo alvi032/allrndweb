@@ -129,8 +129,11 @@ nav.navbar li:last-child {
     grid-column:2/3;
     height: fit-content;
     text-align: justify;
-    font-size: 1.3vw;
-    font-family: gotham-medium;
+    font-size: 1.35vw;
+
+    font-weight: 500;
+    font-family: gotham-light;
+
     width: 80%;
     place-self: center left;
     /*padding: 4em 150px 5em 150px;*/
