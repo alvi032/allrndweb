@@ -21,3 +21,26 @@ body{
     color: #3484d9;
     margin:0;
 }
+#downloads-content ul{
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
+}
+#downloads-content li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#downloads-content li a{
+    background-color: orange;
+    width: 75%;
+
+}
+#downloads-content li img{
+
+    width: 100%;
+    height: auto;
+}
