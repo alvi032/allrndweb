@@ -41,7 +41,7 @@ body{
     place-items: center;
 }
 #members>li>div{
-    text-align: center;
+    text-align: left;
 }
 #members h3{
     font-family: gotham-medium;
