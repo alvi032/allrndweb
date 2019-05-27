@@ -108,7 +108,7 @@ nav.navbar li:last-child {
     grid-area: head;
     /*padding: 0 150px;*/
     /*padding: 0 0 0 150px;*/
-    padding-left: 150px;
+    padding-left: 5vw;
     font-family: gotham-medium;
     align-self: end;
     justify-self: left;
@@ -117,13 +117,23 @@ nav.navbar li:last-child {
     color: #3484d9;
     line-height: 90%;
 }
+#about-section iframe{
+    place-self: center;
+    /*width: 848px;*/
+    width: 55vw;
+    /*height:480px;*/
+    height: 31vw;
+}
 #about-section p{
-    grid-area: para;
+    grid-row: 2/3;
+    grid-column:2/3;
     height: fit-content;
     text-align: justify;
-    font-size: 22px;
+    font-size: 1.3vw;
     font-family: gotham-medium;
-    padding: 4em 150px 5em 150px;
+    width: 80%;
+    place-self: center left;
+    /*padding: 4em 150px 5em 150px;*/
     color: #3484d9;
 }
 #sticker{

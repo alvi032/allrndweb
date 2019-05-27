@@ -6,6 +6,7 @@
         height: 16.5vw;
     }
 }
+
 @media only screen and (max-width: 1200px){
     #work img{
         height: 400px;
@@ -17,25 +18,35 @@
         font-size: 20px;
         padding: 0.4em 0.8em;
     }
-    #about-section{
+/*    #about-section{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
-    }
-    #about-bg{
+    }*/
+/*    #about-bg{
         grid-column: 1;
-        width: 90vw;
-    }
-    #sticker{
+        width: 50vw;
+    }*/
+/*    #sticker{
         grid-column: 1;
         grid-row: 3;
         width: 30vw;
         place-self: center;
-    }
+    }*/
     #video-list{
         grid-template-columns: repeat(2, 1fr);
     }
     #video-list iframe{
         height: 25vw;
+    }
+    #about-section h1{
+        font-size: 6vw;
+    }
+/*    #about-bg{
+        grid-column: 1/2;
+        width: 100%;
+    }*/
+    #about-section p{
+        /*font-size: 15px;*/
     }
 }
 
@@ -60,13 +71,33 @@
     }
 }
 @media only screen and (max-width: 900px){
+    #about-section{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    #about-bg{
+        grid-column: 1;
+        grid-row: 1;
+        width: 80%;
+    }
+    #about-section iframe{
+        grid-column: 1;
+        grid-row: 2;
+        padding: 1em 0;
+        width: 96vw;
+        height: 54vw;
+    }
     #about-section h1{
         font-size: 8vw;
-        place-self: center;
-        padding: 0;
     }
     #about-section p{
-        font-size: 3vw;
+        grid-column: 1;
+        grid-row: 3;
+        place-self: center;
+        text-align: justify;
+        padding: 1em 0;
+        font-size: 16px;
+        width: 75%;
     }
 }
 @media only screen and (max-width: 850px){
@@ -114,6 +145,9 @@
     #team-members h3{
         font-size: 4vw;
 
+    }
+    #about-section p{
+        width: 90%;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -168,13 +202,12 @@
         font-size: 15px;
     }
     #about-section h1 {
-        padding-top: 1em;
+        padding-top: 0.25em;
         line-height: 100%;
     }
 
     #about-section p {
-        font-size: 18px;
-        text-align: center;
+        width: 100%;
         line-height: 100%;
         min-width: 80vw;
     }

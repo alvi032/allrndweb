@@ -1,0 +1,23 @@
+body{
+    overflow: hidden;
+}
+#downloads-main{
+    padding-top: 70px;
+}
+#downloads-header {
+    background-image: url("images/templates/DOWNLOADS.png");
+    background-size: contain;
+    background-position: center;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#downloads-header h1{
+    text-align: center;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    font-family: gotham-medium;
+    font-size: 8vw;
+    color: #3484d9;
+    margin:0;
+}
