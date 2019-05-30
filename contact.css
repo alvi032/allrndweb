@@ -130,4 +130,8 @@ padding: 0;
 #ft-links a{
     text-decoration: none;
     color: black;
+    font-family: gotham-light;
+}
+#ft-links a:hover{
+    font-family: gotham-medium;
 }
