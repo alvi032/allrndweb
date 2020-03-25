@@ -48,7 +48,6 @@ body{
     font-size: 2.0625rem;
     color: var(--blue);
     margin: auto;
-
 }
 .list{
     list-style: none;
@@ -64,7 +63,9 @@ body{
     width: max-content;
     margin: 0 auto;
 }
-
+.list a:hover{
+    text-decoration: underline;
+}
 @media (max-width: 1368px) {
     .heading{
         font-size: calc(6.625rem/1.5);
