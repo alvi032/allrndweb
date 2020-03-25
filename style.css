@@ -58,7 +58,7 @@ body{
     text-align: center;
     width: 100%;
     max-width: 625px;
-    margin: 200px auto 0;
+    margin: 150px auto 0;
 }
 .list li{
     width: max-content;
@@ -86,12 +86,12 @@ body{
         margin-top: 40px;
     }
 }
-@media (max-width: 425px){
+@media (max-width: 500px){
     .heading{
-        font-size: calc(6.625rem/2);
+        font-size: calc(6.625rem/3.5);
     }
     .caption{
-        font-size: calc(3.25rem/2);
+        font-size: calc(3.25rem/3);
     }
     .social-links{
         font-size: calc(2.0625rem/2);
